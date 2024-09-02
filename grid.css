@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+}
+
+.grid-item {
+    border: 5px solid white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: aquamarine;  
+}
+
+img {
+    width: 250px;
+    height: 300px;
+}
+
+.grid-item:hover {
+    background-color: azure;
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+}
+
+.fig-cap {
+    font-size: x-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1px;
+}
+
+.fig-cap:hover{
+    font-size: large;
+    font-style: italic;
+}
